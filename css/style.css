@@ -426,13 +426,31 @@ section .content .content__wrap .swiper {
 @media (max-width: 1200px) {
   section .content .content__wrap .swiper {
     margin: 0;
+    padding: 2rem 0;
   }
 }
 section .content .content__wrap .swiper .swiper-button-prev {
   margin-top: -95px;
 }
+@media (max-width: 1200px) {
+  section .content .content__wrap .swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 95px;
+    left: 63%;
+  }
+}
 section .content .content__wrap .swiper .swiper-button-next {
   margin-top: -95px;
+}
+@media (max-width: 1200px) {
+  section .content .content__wrap .swiper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 95px;
+  }
 }
 section .content .content__wrap .swiper .swiper-button-prev, section .content .content__wrap .swiper .swiper-button-next {
   width: 55px;
@@ -464,7 +482,7 @@ section .content .content__wrap .swiper .swiper-wrapper .swiper-slide {
 }
 @media (max-width: 1200px) {
   section .content .content__wrap .swiper .swiper-wrapper .swiper-slide {
-    padding: 0rem 5rem;
+    padding: 0rem 1rem;
   }
 }
 section .content .content__wrap .swiper .swiper-wrapper .swiper-slide h2 {
